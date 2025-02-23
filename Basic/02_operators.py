@@ -7,9 +7,9 @@ print(3 + 4)
 print(3 - 4)
 print(3 * 4)
 print(3 / 4)
-print(10 % 3)
-print(10 // 3)
-print(2 ** 3)
+print(10 % 3) # Operador de módulo: Establece la división y cual es el resto que tiene, sirve para saber si hay un multiplo.
+print(10 // 3) # Operador Floor: Redondea la división a un n° entero.
+print(2 ** 3) # Operador para calcular un exponente
 print(2 ** 3 + 3 - 7 / 1 // 4)
 
 # Operaciones con cadenas de texto

@@ -2,6 +2,12 @@
 
 ### Dictionaries ###
 
+"""
+Un diccionario es una colección de tipos de datos emparejados 
+(clave: valor) no ordenados y modificables (mutables).
+"""
+
+
 # Definición
 
 my_dict = dict()

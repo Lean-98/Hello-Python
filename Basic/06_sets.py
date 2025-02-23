@@ -2,6 +2,15 @@
 
 ### Sets ###
 
+"""
+Un Set es una colección de elementos. 
+Permíteme llevarte de vuelta a tu clase de Matemáticas de la escuela primaria o secundaria. 
+La definición matemática de un conjunto también se puede aplicar en Python. 
+Un conjunto es una colección de elementos distintos, no ordenados y sin índice. 
+En Python, los conjuntos se utilizan para almacenar elementos únicos, y es posible encontrar la unión, 
+intersección, diferencia, diferencia simétrica, subconjunto, superconjunto y conjunto disjunto entre conjuntos.
+"""
+
 # Definición
 
 my_set = set()

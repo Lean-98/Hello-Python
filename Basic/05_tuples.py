@@ -1,7 +1,13 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=14711
 
 ### Tuples ###
-
+"""
+Una tupla es una colección de diferentes tipos de datos que está ordenada y no se puede cambiar (inmutable). 
+Las tuplas se escriben entre llaves, (). 
+Una vez que se crea una tupla, no podemos cambiar sus valores. 
+No podemos usar métodos de agregar, insertar o eliminar en una tupla porque no es modificable (mutable). 
+A diferencia de una lista, una tupla tiene pocos métodos.
+"""
 # Definición
 
 my_tuple = tuple()

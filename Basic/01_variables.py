@@ -1,6 +1,7 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=2938
 
 ### Variables ###
+### *Una buena práctica es declarar las variables con snake_case   ### 
 
 my_string_variable = "My String variable"
 print(my_string_variable)

@@ -1,7 +1,10 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=10872
 
 ### Lists ###
-
+"""
+Una lista es una colección de distintos tipos de datos que está ordenada y es modificable (mutable). 
+Una lista puede estar vacía o puede tener elementos de distintos tipos de datos.
+"""
 # Definición
 
 my_list = list()
@@ -56,7 +59,7 @@ print(my_other_list)
 my_other_list.remove("Azul")
 print(my_other_list)
 
-my_list.remove(30)
+my_list.remove(30) # Elimina el valor que le pasamos
 print(my_list)
 
 print(my_list.pop())
@@ -66,7 +69,7 @@ my_pop_element = my_list.pop(2)
 print(my_pop_element)
 print(my_list)
 
-del my_list[2]
+del my_list[2] # Elimina por indice
 print(my_list)
 
 # Operaciones con listas
