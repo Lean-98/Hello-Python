@@ -1,6 +1,12 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=34583
 
 ### Modules ###
+"""
+ Un módulo es un archivo que contiene un conjunto de códigos o un conjunto de funciones
+ que se pueden incluir en una aplicación. 
+ Un módulo puede ser un archivo que contenga una única variable, una función o una gran base de código.
+"""
+
 
 from math import pi as PI_VALUE
 import math

@@ -1,12 +1,12 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=32030
 
-### Exception Handling ###
+### *Exception Handling ###
 
 numberOne = 5
 numberTwo = 1
 numberTwo = "1"
 
-# Excepción base: try except
+# *Excepción base: try except
 
 try:
     print(numberOne + numberTwo)
@@ -15,7 +15,7 @@ except:
     # Se ejecuta si se produce una excepción
     print("Se ha producido un error")
 
-# Flujo completo de una excepción: try except else finally
+# *Flujo completo de una excepción: try except else finally
 
 try:
     print(numberOne + numberTwo)
@@ -29,7 +29,7 @@ finally:  # Opcional
     # Se ejecuta siempre
     print("La ejecución continúa")
 
-# Excepciones por tipo
+# *Excepciones por tipo
 
 try:
     print(numberOne + numberTwo)
@@ -39,7 +39,7 @@ except ValueError:
 except TypeError:
     print("Se ha producido un TypeError")
 
-# Captura de la información de la excepción
+# *Captura de la información de la excepción
 
 try:
     print(numberOne + numberTwo)
