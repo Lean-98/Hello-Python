@@ -45,7 +45,7 @@ my_dict = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35, 1: "Python"}
 for element in my_dict:
     print(element)
     if element == "Edad":
-        break
+        break # El break acaba con el ciclo for, se sale y continúa pero ya fuera del scope del ciclo for.
 else:
     print("El bucle for para el diccionario ha finalizado")
 
@@ -54,7 +54,7 @@ print("La ejecución continúa")
 for element in my_dict:
     print(element)
     if element == "Edad":
-        continue
+        continue # El continue vuelve al for sin ejecutar lo que está por debajo
     print("Se ejecuta")
 else:
-    print("El bluce for para diccionario ha finalizado")
+    print("El bucle for para diccionario ha finalizado")
